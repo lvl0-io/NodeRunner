@@ -18,4 +18,4 @@ jobs:
           node-version: 21
 
       - name: Run the main index function
-        run: npm hello
+        run: npm run hello
