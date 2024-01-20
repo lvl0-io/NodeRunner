@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
-
+  schedule:
+    - cron: "* * * * *"
 jobs:
-  build:
+  hello:
     runs-on: ubuntu-latest
 
     steps:
