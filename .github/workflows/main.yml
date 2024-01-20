@@ -1,8 +1,8 @@
 name: NodeRunner Demo
 
 on:
-  schedule:
-    - cron: "* * * * *"
+ # schedule:
+  #  - cron: "* * * * *"
 jobs:
   hello:
     runs-on: ubuntu-latest
